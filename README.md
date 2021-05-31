@@ -1,2 +1,2 @@
-# vyacheslavkhomyakov.github.io
+# Вячеслав Хомяков
 Мой первый сайт
