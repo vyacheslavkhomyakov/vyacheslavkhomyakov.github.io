@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #2a3e51;
+}
+.logo{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float:left;
+}
+.menu{
+    float:left;
+    padding-left: 430px;
+    
+}
+.menu li{
+    float:left;
+    line-height: 60px;
+    color: #ffffff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/main/boi.png) 90% 100%/auto 85% no-repeat, url(../img/main/background1.png) center/cover no-repeat;
+  
+}
+
+.title__container{
+    float:left;
+    margin: 432px 0px 0px 404px; 
+    color: #213549;
+    text-align: center;
+}
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.title__container h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #697784;
+}
+.title__container input{
+    height: 40px;
+    text-align:center;
+    border: 2px solid #697784;
+    background: none;
+    border-radius: 5px;
+    color: #697784;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+    
+}
+.about_me{
+    width: 100%;
+    height: 718px;
+    background: url(../img/about_me/Foto.png) no-repeat center, url(../img/about_me/fon.png), url(../img/about_me/trait.png) no-repeat;
+}
+.about_me h2{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1a2f43;
+    padding: 109px 895px 586px 895px;
+    
+}
+.description p{
+    float:left;
+    font-size: 10px;
+    color: #1a2f43;
+    padding: 453px 471px 169px 598px;
+}
