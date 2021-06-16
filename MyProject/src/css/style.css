@@ -63,18 +63,83 @@ nav{
 .about_me{
     width: 100%;
     height: 718px;
-    background: url(../img/about_me/Foto.png) no-repeat center, url(../img/about_me/fon.png), url(../img/about_me/trait.png) no-repeat;
+    background: url(../img/about_me/Foto.png) no-repeat 46%, url(../img/about_me/trait.png) 915px 161px/auto no-repeat, url(../img/about_me/fon.png);
 }
 .about_me h2{
     font-size: 24px;
     font-weight: bolder;
     color: #1a2f43;
-    padding: 109px 895px 586px 895px;
+    padding: 109px 0px 0px 893px;
     
 }
-.description p{
+.description{
     float:left;
     font-size: 10px;
     color: #1a2f43;
-    padding: 453px 471px 169px 598px;
+    padding: 315px 0px 0px 650px;
+}
+.description p{
+    padding: 43px 0px 0px 0px;
+}
+.about_me input{
+    height: 32px; 
+    text-align: center;
+    border: 2px solid #6f7180;
+    border-radius: 5px;
+    color: #6f7180;
+    padding: 5px 13px 11px 35px;
+    margin: 456px 20px 0px 20px;
+     
+}
+.Personal_information{
+    width: 1920px;
+    height: 520px;
+    background: url(../img/what_I_can_do/trait.png) 50% 158px no-repeat, url(../img/what_I_can_do/picture_fon.png) no-repeat;
+}
+.me{
+    float:left;
+    font-size: 28px; 
+    font-weight: bold;
+    margin: 107px 0px 0px 873px;
+}
+.skills{
+    float: left;
+    padding: 134px 80px 80px 416px;
+    text-align: center;
+}
+.WebDisine{
+    float: left;
+}
+.WebDisine h4{
+    font-size: 15px;
+    color: #e97700;
+    padding: 24px;
+    font-weight: bold;
+}
+.Fix{
+    float: left;
+}
+.Fix h4{
+    font-size: 15px;
+    color: #e97700;
+    padding: 24px;
+    font-weight: bold;
+}
+.CEO{
+    float: left;
+}
+.CEO h4{
+    font-size: 15px;
+    color: #e97700;
+    padding: 24px;
+    font-weight: bold;
+}
+.Marketing{
+    float: left;
+}
+.Marketing h4{
+    font-size: 15px;
+    color: #e97700;
+    padding: 24px;
+    font-weight: bold;
 }
