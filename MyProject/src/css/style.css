@@ -2,7 +2,7 @@ body{
     font-family: Arial, sans-serif;
 }
 nav{
-    width: 100%;
+    width: 1920px;
     height: 60px;
     background: #2a3e51;
 }
@@ -27,7 +27,7 @@ nav{
     text-transform: uppercase;
 }
 .main{
-    width: 100%;
+    width: 1920px;
     height: calc(100% - 60px);
     background: url(../img/main/boi.png) 90% 100%/auto 85% no-repeat, url(../img/main/background1.png) center/cover no-repeat;
   
@@ -61,9 +61,9 @@ nav{
     
 }
 .about_me{
-    width: 100%;
+    width: 1920px;
     height: 718px;
-    background: url(../img/about_me/Foto.png) no-repeat 46%, url(../img/about_me/trait.png) 915px 161px/auto no-repeat, url(../img/about_me/fon.png);
+    background: url(../img/about_me/Foto.png) 858px 225px no-repeat, url(../img/about_me/trait.png) 915px 161px no-repeat;
 }
 .about_me h2{
     font-size: 24px;
@@ -73,23 +73,24 @@ nav{
     
 }
 .description{
-    float:left;
     font-size: 10px;
     color: #1a2f43;
-    padding: 315px 0px 0px 650px;
+    padding: 324px 0px 0px 650px;
 }
-.description p{
-    padding: 43px 0px 0px 0px;
+.description_2{
+    font-size: 10px;
+    color: #1a2f43;
+    padding: 40px 0px 0px 650px;
 }
 .about_me input{
     height: 32px; 
-    text-align: center;
-    border: 2px solid #6f7180;
     border-radius: 5px;
+    border: 2px solid #6f7180;
+    text-align: right;
     color: #6f7180;
-    padding: 5px 13px 11px 35px;
-    margin: 456px 20px 0px 20px;
-     
+    background: none;
+    padding: 7px 9px 9px 32px;
+    margin: 37px 877px 0px 885px;
 }
 .Personal_information{
     width: 1920px;
@@ -108,6 +109,7 @@ nav{
     text-align: center;
 }
 .WebDisine{
+    margin-right: 85px;
     float: left;
 }
 .WebDisine h4{
@@ -117,6 +119,7 @@ nav{
     font-weight: bold;
 }
 .Fix{
+    margin-right: 85px;
     float: left;
 }
 .Fix h4{
@@ -126,6 +129,7 @@ nav{
     font-weight: bold;
 }
 .CEO{
+    margin-right: 85px;
     float: left;
 }
 .CEO h4{
@@ -135,6 +139,7 @@ nav{
     font-weight: bold;
 }
 .Marketing{
+    margin-right: 85px;
     float: left;
 }
 .Marketing h4{
@@ -142,4 +147,312 @@ nav{
     color: #e97700;
     padding: 24px;
     font-weight: bold;
+}
+.cases{
+    width: 1920px;
+    height: 1150px;
+    background: url(../img/cases/Foto.png) 0% 259px no-repeat;
+}
+.case{
+    float:left;
+    background: url(../img/cases/trait.png) 890px 158px no-repeat;
+}
+.case h2{
+    float:left;
+    font-size: 28px; 
+    font-weight: bold;
+    margin: 107px 0px 0px 873px;
+}
+.case p{
+    font-size: 11px;
+    float: left;
+    padding: 67px 0px 0px 613px;
+}
+.client{
+    float:left;
+    color: #5e6672;
+    margin: 670px 0px 0px 387px; 
+}
+.client h3{
+    font-size: 18px; 
+    float: left;
+    font-weight: bold;
+}
+.client h5{
+    font-size: 11px; 
+    margin-right: 0px;
+    padding: 22px 0px 0px 0px;
+}
+.website{
+    color: #5e6672;
+    padding: 940px 0px 0px 390px;
+}
+.website h3{
+    font-size: 18px; 
+    float: left;
+    font-weight: bold;
+}
+
+.website h5{
+    font-size: 11px; 
+    margin-right: 0px;
+    padding: 22px 0px 0px 0px;
+}
+.visit{
+    margin: 26px 0px 0px 390px;
+}
+.visit input{
+    height: 45px;
+    text-align: center;
+    border: 2px solid #63b5ae;
+    background-color: #63b5ae;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 42px;
+}
+.name_progect{
+    float: left;
+    margin: -160px 0px 0px 670px;
+    color: #5e6672;
+}
+.name_progect h4{
+    font-size: 20px; 
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+.Calculation{
+    width: 1920px;
+    height: 846px;
+}
+.Calculation h2{
+    font-size: 29px; 
+    padding: 100px 0px 0px 803px;
+    font-weight: bold;
+    color: #102032;
+}
+.Calculation ul{
+    float:left;
+    margin: 58px 0px 10px 500px; 
+    text-align: left;
+}
+.Calculation li{
+    margin: 24px 0px 60px 0px;
+    font-size: 27px;
+}
+.Calculation input{
+    height: 45px;
+    width: 880px;
+    text-align: left;
+    padding: 5px 0px 0px 15px;
+    color: #747474; 
+}
+.Calculation span{
+    float:left;
+    padding: 70px 0px 0px 500px;
+}
+.Calculation h4{
+    font-size: 15px;
+    color: #4a515b;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.Statistics{
+    width: 1920px;
+    height: 495px;
+    background: url(../img/Statistics/trait.png) 50% 157px no-repeat, url(../img/Statistics/Fon.png) no-repeat;
+}
+.smal_statistics h2{
+    font-size: 28px;
+    float:left;
+    margin: 100px 0px 0px 805px;
+    font-weight: bold;
+}
+.statistics_information{
+    float: left;
+    padding: 85px 80px 80px 438px;
+    text-align: center;
+}
+.happy_client{
+    margin-right: 161px;
+    float: left;
+}
+.happy_client h2{
+    font-size: 30px;
+    color: #283b4e;
+    padding: 30px;
+    font-weight: bold;
+}
+.happy_client h6{
+    color: #283b4e;
+    font-weight: bold;
+}
+
+.times_work{
+    margin-right: 161px;
+    float: left;
+}
+.times_work h2{
+    font-size: 30px;
+    color: #283b4e;
+    padding: 30px;
+    font-weight: bold;
+}
+.times_work h6{
+    color: #283b4e;
+    font-weight: bold;
+}
+.Progect_completed{
+    margin-right: 161px;
+    float: left;
+}
+.Progect_completed h2{
+    font-size: 30px;
+    color: #283b4e;
+    padding: 30px;
+    font-weight: bold;
+}
+.Progect_completed h6{
+    color: #283b4e;
+    font-weight: bold;
+}
+.reward{
+    margin-right: 161px;
+    float: left;
+}
+.reward h2{
+    font-size: 30px;
+    color: #283b4e;
+    padding: 30px;
+    font-weight: bold;
+}
+.reward h6{
+    color: #283b4e;
+    font-weight: bold;
+}
+.Reviews{
+    width: 1920px;
+    height: 590px;
+    background: url(../img/Reviews/trait.png) 50% 170px no-repeat, url(../img/Reviews/Foto.png)50% 230px no-repeat;
+}
+.heading h2{
+    font-size: 25px;
+    color: #283b4e;
+    padding: 108px 0px 0px 897px;
+    font-weight: bold;
+}
+.interview{
+    float: left;
+    text-align: center;
+    color: #283b4e;
+    padding: 231px 0px 0px 480px; 
+}
+.signature{
+    float: left;
+    text-align: center;
+    color: #283b4e;
+    padding: 35px 0px 0px 840px; 
+}
+.choice form{
+    float: left;
+    padding: 47px 0px 0px 931px; 
+}
+.my_contacts{
+    width: 1920px;
+    height: 810px;
+    background: url(../img/my_contacts/trait.png)50% 160px no-repeat, url(../img/my_contacts/Fon.png)no-repeat;
+}
+.heading_contacts h2{
+    float: left;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 103px 0px 0px 847px;
+}
+.heading_contacts span{
+    float: left;
+    font-size: 10px;
+    color: #ffffff;
+    padding: 68px 0px 0px 670px;
+}
+.input_contact{
+    float: left;
+    padding: 45px 80px 80px 655px;
+    text-align: center;
+}
+.GEO_contacts{
+    float: left;
+    margin-right: 100px;
+}
+.GEO_contacts h6{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px;
+    line-height: 17px;
+}
+.Email{
+    float:left;
+    margin-right: 100px;
+}
+.Email h6{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px;
+    line-height: 17px;
+}
+.Tell_number{
+    float: left;
+    margin-right: 100px;
+}
+.Tell_number h6{
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px;
+    line-height: 17px;
+}
+.Input_me{
+    float: left;
+    padding: 13px 0px 0px 805px;
+    text-align: center
+}
+.Input_me h3{
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+}
+.data_field{
+    float: left;
+    margin: 39px 0px 0px 495px;
+}
+.DATA input{
+    height: 30px;
+    text-align: left;
+    border: 0px solid #d5dae0;
+    color: #5d5d5e;
+    font-size: 9px;
+    padding: 5px 313px 0px 8px;
+    margin: 0px 6px 0px 6px;
+}
+
+.Field input{
+    height: 90px;
+    text-align: left;
+    border: 0px solid #d5dae0;
+    font-size: 9px;
+    padding: 5px 642px 70px 8px;
+}
+.location_i_m_here{
+    height: 350px;
+    width: 1920px;
+    background: url(../img/i_m_here/mep.png)no-repeat;
+}
+.trade_mark{
+    width: 1920px;
+    height: 90px;
+    background: #2a3e51;
+    text-align: center;\
+    font-size: 11px;
+    color: #ffffff;
+    padding: 40px;
 }
