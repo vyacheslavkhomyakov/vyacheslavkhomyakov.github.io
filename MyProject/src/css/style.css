@@ -88,7 +88,7 @@ nav{
     border: 2px solid #6f7180;
     text-align: right;
     color: #6f7180;
-    background: none;
+    background: url(../img/about_me/Icon.png) 10px 6px no-repeat;
     padding: 7px 9px 9px 32px;
     margin: 37px 877px 0px 885px;
 }
@@ -105,7 +105,7 @@ nav{
 }
 .skills{
     float: left;
-    padding: 134px 80px 80px 416px;
+    padding: 134px 80px 80px 345px;
     text-align: center;
 }
 .WebDisine{
@@ -225,6 +225,7 @@ nav{
 .Calculation{
     width: 1920px;
     height: 846px;
+    background: url(../img/line_top.png) 497px 630px no-repeat;
 }
 .Calculation h2{
     font-size: 29px; 
@@ -237,21 +238,50 @@ nav{
     margin: 58px 0px 10px 500px; 
     text-align: left;
 }
-.Calculation li{
-    margin: 24px 0px 60px 0px;
+.input_1{
+    float: left;
+    margin: 24px 0px 45px 0px;
     font-size: 27px;
 }
-.Calculation input{
-    height: 45px;
-    width: 880px;
+.input_1 input{
+    height: 40px;
+    width: 887px;
     text-align: left;
-    padding: 5px 0px 0px 15px;
-    color: #747474; 
+    color: #a1a1a1;
+    padding: 13px;
+    margin-top: 20px;
+}
+.input_2{
+    float: left;
+    margin: 24px 0px 40px 0px;
+    font-size: 27px;
+ }  
+.input_2 input{
+    height: 40px;
+    width: 887px;
+    text-align: left;
+    color: #a1a1a1;
+    padding: 13px;
+    margin-top: 20px;
+}
+
+.input_3{
+    float: left;
+    margin: 24px 0px 20px 0px;
+    font-size: 27px;
+ }  
+.input_3 input{
+    height: 40px;
+    width: 887px;
+    text-align: left;
+    color: #a1a1a1;
+    padding: 13px;
+    margin-top: 20px;
 }
 .Calculation span{
     float:left;
-    padding: 70px 0px 0px 500px;
-}
+    margin: 25px 0px 0px 497px;
+}   
 .Calculation h4{
     font-size: 15px;
     color: #4a515b;
@@ -271,7 +301,7 @@ nav{
 }
 .statistics_information{
     float: left;
-    padding: 85px 80px 80px 438px;
+    padding: 85px 80px 80px 400px;
     text-align: center;
 }
 .happy_client{
@@ -361,7 +391,7 @@ nav{
 .my_contacts{
     width: 1920px;
     height: 810px;
-    background: url(../img/my_contacts/trait.png)50% 160px no-repeat, url(../img/my_contacts/Fon.png)no-repeat;
+    background: url(../img/my_contacts/trait.png)922px 160px no-repeat, url(../img/my_contacts/Fon.png)no-repeat;
 }
 .heading_contacts h2{
     float: left;
@@ -374,11 +404,11 @@ nav{
     float: left;
     font-size: 10px;
     color: #ffffff;
-    padding: 68px 0px 0px 670px;
+    padding: 68px 0px 0px 680px;
 }
 .input_contact{
     float: left;
-    padding: 45px 80px 80px 655px;
+    padding: 45px 80px 20px 645px;
     text-align: center;
 }
 .GEO_contacts{
@@ -413,7 +443,7 @@ nav{
 }
 .Input_me{
     float: left;
-    padding: 13px 0px 0px 805px;
+    padding: 13px 0px 0px 838px;
     text-align: center
 }
 .Input_me h3{
@@ -428,19 +458,58 @@ nav{
 .DATA input{
     height: 30px;
     text-align: left;
-    border: 0px solid #d5dae0;
+    border: 0px;
+    background: color #d6dae0;
     color: #5d5d5e;
     font-size: 9px;
     padding: 5px 313px 0px 8px;
     margin: 0px 6px 0px 6px;
 }
 
-.Field input{
+.display_block{
     height: 90px;
+    width: 735px;
     text-align: left;
     border: 0px solid #d5dae0;
     font-size: 9px;
-    padding: 5px 642px 70px 8px;
+}
+.input_inormation input{
+    height: 40px;
+    width: 120px;
+    text-align:center;
+    border: 2px solid #ffff;
+    background: none;
+    border-radius: 5px;
+    color: #ffff;
+    padding: 12px 10px;
+    margin: 28px 0px 0px 400px;
+}
+.social_network{
+    padding: 715px 0px 0px 753px;
+}
+.F_Boock{
+    float: left;
+    margin-right: 56px;
+}
+.twitter{
+    float: left;
+    margin: 2px 54px 0px 0px;
+}
+.ball{
+    float: left;
+    margin-right: 52px;
+}
+.GitHub{
+    float: left;
+    margin-right: 53px;
+}
+.instagram{
+    float: left;
+    margin-right: 53px;
+}
+.IN{
+    float: left;
+    margin-right: 56px;
 }
 .location_i_m_here{
     height: 350px;
